@@ -2,3 +2,37 @@
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.d-block  {
+    font-weight: 200;
+    height: 200;
+}
+.body{
+    background-color: black;
+    
+}
+.form-floating {
+    margin-top: 50px;
+
+}
+.d-block{
+    height: 800px;
+}
+.copy{
+    color: white;
+}
+.titulo-nosotros{
+    text-align: start;
+    color: white;
+    margin-top: 50px;
+}
+.texto-nosotros{
+    color: white;
+    font-size: x-large;
+
+}
+.card{
+    width: 18rem;
+    margin-top: 50px;
+  
+}
