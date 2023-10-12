@@ -1,0 +1,19 @@
+@import "variables";
+@import "fuentes";
+@import "contacto";
+@import "reset";
+@import "inicio";
+@import "footer";
+.navbar{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9136029411764706) 46%, rgba(0,194,255,1) 72%);
+    .navbar-brand{
+        color: white;
+    }
+    .nav-link{
+        color: white;
+    }
+}
+.titulo-uno{
+    text-align: center;
+}

@@ -1,55 +1,60 @@
-.navbar-brand{
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.d-block  {
-    font-weight: 200;
-    height: 200;
-}
-.body{
-    background-color: black;
-    
-}
 .form-floating {
-    margin-top: 50px;
+  margin: 50px 900px 10px 10px;
+}
 
+.enviar {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 950px;
 }
-.d-block{
-    height: 800px;
-}
-.copy{
-    color: white;
-    margin-top: 50px;
 
+.carousel-inner {
+  height: 1200px;
 }
-.titulo-nosotros{
-    text-align: start;
-    color: white;
-    margin-top: 50px;
-}
-.texto-nosotros{
-    color: white;
-    font-size: x-large;
 
+.card {
+  width: 20rem;
+  margin-top: 100px;
+  margin-left: 100px;
+  display: inline-block;
 }
-.card{
-    width: 20rem;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    
+
+.titulo-2okm {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 1%, rgba(0, 0, 0, 0.9136029412) 47%, rgb(0, 194, 255) 87%);
 }
-.imgnoso{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
+.titulo-2okm h2 {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
 }
-.enviar{
-    text-align: end;
-    margin-top: 20px;
+
+.titulo-nosotros {
+  text-align: start;
 }
-.navfooter{
-    color: white;
-    
+
+.backcolor {
+  background: rgb(36, 0, 19);
+  background: linear-gradient(90deg, rgb(36, 0, 19) 45%, rgb(0, 212, 255) 99%);
+  margin-top: 200px;
 }
+.backcolor .copy {
+  color: white;
+}
+
+.navbar {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9136029412) 46%, rgb(0, 194, 255) 72%);
+}
+.navbar .navbar-brand {
+  color: white;
+}
+.navbar .nav-link {
+  color: white;
+}
+
+.titulo-uno {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
