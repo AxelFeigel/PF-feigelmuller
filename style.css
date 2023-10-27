@@ -1,0 +1,66 @@
+.form-floating {
+  margin: 50px 900px 10px 10px;
+}
+
+.enviar {
+  position: relative;
+  margin-top: 440px;
+  margin-left: 950px;
+}
+
+.carousel-inner {
+  height: 1200px;
+}
+
+.card {
+  width: 20rem;
+  margin-top: 100px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.titulo-2okm {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 1%, rgba(0, 0, 0, 0.9136029412) 47%, rgb(0, 194, 255) 87%);
+}
+.titulo-2okm h2 {
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.titulo-nosotros {
+  text-align: start;
+}
+
+.backcolor {
+  background: rgb(36, 0, 19);
+  background: linear-gradient(90deg, rgb(36, 0, 19) 45%, rgb(0, 212, 255) 99%);
+  
+}
+.backcolor .copy {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgnosotro {
+  margin-top: 100px;
+  margin-left: 450px;
+}
+
+.navbar {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9136029412) 46%, rgb(0, 194, 255) 72%);
+}
+.navbar .navbar-brand {
+  color: white;
+}
+.navbar .nav-link {
+  color: white;
+}
+
+.titulo-uno {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+@import "scss/inicio";
+@import "scss/fuentes";
+@import "scss/contacto";
+@import "scss/reset";
+@import "scss/inicio.scss";
+@import "scss/footer";
+@import "scss/nosotros";
+
+.navbar{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9136029411764706) 46%, rgba(0,194,255,1) 72%);
+    .navbar-brand{
+        color: white;
+    }
+    .nav-link{
+        color: white;
+    }
+}
+.titulo-uno{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.titulo-2okm{
+    margin-top: 20px;
+    height: 200px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(0,0,0,0.9136029411764706) 47%, rgba(0,194,255,1) 87%);
+    .portada{
+        height: 200px;
+        position: relative
+    }
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background: rgb(36,0,19);
+    background: linear-gradient(90deg, rgba(36,0,19,1) 45%, rgba(0,212,255,1) 99%);
+    color: white;
+    padding: 10px;
+}

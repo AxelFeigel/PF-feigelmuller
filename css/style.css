@@ -1,15 +1,5 @@
-.form-floating {
-  margin: 50px 900px 10px 10px;
-}
-
-.enviar {
-  position: relative;
-  margin-top: 20px;
-  margin-left: 950px;
-}
-
 .carousel-inner {
-  height: 1200px;
+  height: 800px;
 }
 
 .card {
@@ -19,27 +9,61 @@
   display: inline-block;
 }
 
-.titulo-2okm {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 1%, rgba(0, 0, 0, 0.9136029412) 47%, rgb(0, 194, 255) 87%);
+.titulo-nosotros {
+  text-align: start;
 }
-.titulo-2okm h2 {
+
+.bmdesc {
+  margin-top: 10px;
+}
+
+.form-floating {
+  margin: 50px 900px 10px 10px;
+}
+
+.enviar {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 950px;
+}
+
+.mapa {
+  width: 400px;
+  height: 300px;
+}
+
+.carousel-inner {
+  height: 800px;
+}
+
+.card {
+  width: 20rem;
   margin-top: 100px;
-  text-align: center;
-  color: white;
+  margin-left: 100px;
+  display: inline-block;
 }
 
 .titulo-nosotros {
   text-align: start;
 }
 
-.backcolor {
-  background: rgb(36, 0, 19);
-  background: linear-gradient(90deg, rgb(36, 0, 19) 45%, rgb(0, 212, 255) 99%);
-  margin-top: 200px;
+.bmdesc {
+  margin-top: 10px;
 }
-.backcolor .copy {
-  color: white;
+
+.nosofont {
+  font-weight: 700;
+}
+
+.nosofont1 {
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.imgnosotro {
+  margin-top: 100px;
+  margin-left: 450px;
 }
 
 .navbar {
@@ -55,6 +79,36 @@
 
 .titulo-uno {
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo-2okm {
+  margin-top: 20px;
+  height: 200px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 1%, rgba(0, 0, 0, 0.9136029412) 47%, rgb(0, 194, 255) 87%);
+}
+.titulo-2okm .portada {
+  height: 200px;
+  position: relative;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background: rgb(36, 0, 19);
+  background: linear-gradient(90deg, rgb(36, 0, 19) 45%, rgb(0, 212, 255) 99%);
+  color: white;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
