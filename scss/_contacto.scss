@@ -1,5 +1,7 @@
 .form-floating{
-    margin: 50px 900px 10px 10px;
+    float: left;
+    width: 60%;
+    padding: 20px;
     
 }
 .enviar{
@@ -8,8 +10,20 @@
     margin-left: 950px;
 }
 .mapa{
-    width: 400px;
+    width: 100%;
     height:300px;
+    box-sizing: border-box;
+    width:600;
+     height:450;
+     border:0;
     
-    
+}
+.form-mapa-conteiner{
+    display: flex;
+    flex-direction: column;
+}
+.form-conteiner{
+    width: 100%;
+    padding: 20%;
+    box-sizing: border-box;
 }
